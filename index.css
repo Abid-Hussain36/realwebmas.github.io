@@ -1,0 +1,548 @@
+/*General Setup Style*/
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.mainBody{
+  /*background-color: #50c878;*/
+  background-color: #ad9cff;
+}
+
+
+/*NavBar Style*/
+.navbar{
+  background-color: black;
+  text-decoration: none;
+}
+
+.navStyle{
+  background-color: black;
+  margin-top: 0%;
+  text-decoration: none;
+}
+
+.navMainButton{
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-decoration: none;
+}
+
+.navLinks{
+  float: right;
+  width: 40%;
+}
+
+.navGButton{
+  float: right;
+  width: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 0%;
+  text-align:center;
+  border-radius: 0%;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color:white;
+}
+
+.navEButton{
+  float: right;
+  width: 20%;
+  padding-top: 1.2%;
+  padding-bottom: 1%;
+  margin-top: 0%;
+  border-radius: 0%;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color:white;
+}
+
+.navTButton{
+  float: right;
+  width: 13%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  text-align: left;
+  margin-top: 0%;
+  border-radius: 0%;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color:white;
+}
+
+.navHButton{
+  float: right;
+  width: 17%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 0%;
+  border-radius: 0%;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Home Styles*/
+/*Home Title*/
+.homeTitle{
+  text-align: center;
+  margin-top: 1.5%;
+  margin-bottom: 4%;
+  color: white;
+}
+
+.homeTitleText{
+  font-size: 300%;
+  font-weight: 1000;
+}
+
+/*Home Boxes*/
+.textBox1{
+  background-color: #ad9cff;
+  vertical-align: top;
+  margin-bottom: 5%;
+}
+
+.homeText1{
+  margin-top: 10%;
+  margin-left: 15%;
+  width: 70%;
+  background-color: #ad9cff;
+  padding-bottom: 15%;
+  color: white;
+}
+
+.textStyle1{
+  font-size: 200%;
+}
+
+.textStyle2{
+  font-size: 200%;
+}
+
+/*Home Data*/
+
+.imageBox1{
+  background-color: blanchedalmond;
+  width:40%;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+.textBox2{
+  background-color: #ad9cff;
+  vertical-align: top;
+  text-align: right;
+}
+
+.homeText2{
+  margin-top: 12%;
+  margin-left: 15%;
+  width: 75%;
+  background-color: #ad9cff;
+  padding-bottom: 15%;
+  color: white;
+}
+
+/*Home Data*/
+.imageBox2{
+  background-color: blanchedalmond;
+  width:40%
+}
+
+.homeImg2{
+  text-align: center;
+}
+
+.homeText3{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 70%;
+  background-color: #ad9cff;
+  padding-bottom: 9%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ExHall Styles*/
+.exTitle{
+  padding-top: 2%;
+  text-align: center;
+  margin-bottom: 4%;
+  color: white;
+}
+
+.exClass{
+  text-align: center;
+  margin-bottom: 2%;
+  color: white;
+}
+
+.b1{
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/640px-Statue_of_Liberty_7.jpg);*/
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  background-image: url("images/AmericaEx.jpg");
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+}
+
+.b2{
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Neuschwanstein_Castle_LOC_print_rotated.jpg/640px-Neuschwanstein_Castle_LOC_print_rotated.jpg);*/
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  background-image: url("images/EuropeEx.jpg");
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+}
+
+.b3{
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Shanghai_-_Yu_Garden_-_0035.jpg/640px-Shanghai_-_Yu_Garden_-_0035.jpg);*/
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  background-image: url("images/AsiaEx.jpg");
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+}
+
+.b4{
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hundred_Islands_Christ_the_Redeemer_Statue.jpg/640px-Hundred_Islands_Christ_the_Redeemer_Statue.jpg);*/
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  background-image: url("images/SouthAmericaEx.jpg");
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+}
+
+.b5{
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Great_Mosque_of_Djenn%C3%A9_in_Mali_is_the_largest_mud_brick_building_in_the_world._%2832931594225%29.jpg/640px-The_Great_Mosque_of_Djenn%C3%A9_in_Mali_is_the_largest_mud_brick_building_in_the_world._%2832931594225%29.jpg);*/
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  background-image: url("images/AfricaEx.jpg");
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+}
+
+.b6{
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/640px-Sydney_Opera_House_-_Dec_2008.jpg);*/
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  background-image: url("images/AustraliaEx.jpg");
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+}
+
+.arrowButtonL{
+  width: 1.5%;
+  padding-top: .75%;
+  padding-bottom: .75%;
+  float:left;
+  margin-top: 20%;
+  margin-left: 1.5%;
+}
+
+.arrowButtonR{
+  width: 1.5%;
+  padding-top: .75%;
+  padding-bottom: .75%;
+  float:right;
+  margin-top: 10.4%;
+  margin-right: 1.5%;
+  color:black;
+}
+
+.outer{
+  background-color: #ad9cff;
+  width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Trivia*/
+.questionCounter{
+  padding-top: 0.5%;
+  padding-left: 0.5%;
+  font-size:x-large;
+  float: left;
+  color:white;
+}
+
+.questionText{
+  text-align: center;
+  font-size:xx-large;
+  padding-bottom: 4%;
+  padding-top: 2%;
+  color:white;
+}
+
+.answerSection{
+  text-align: center;
+  margin-left: 8%;
+}
+
+.answerButton{
+  width: 35%;
+  padding-top: 6.5%;
+  padding-bottom: 6.5%;
+  margin:1%;
+  border-radius: 15%;
+  background-color: maroon;
+  font-size: x-large;
+  color:white;
+}
+
+.endScore{
+  padding-left: 40%;
+  padding-top: 15%;
+  color: white;
+  font-size: 250%;
+}
+
+.endQuizButton{
+  margin-left: 46.6%;
+  margin-top: 1.7%;
+  font-size: 150%;
+  background-color: rgb(255, 200, 0);
+  color: white;
+  border: none;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Cuisines*/
+.c1{
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Poutine_%2814170289748%29.jpg/640px-Poutine_%2814170289748%29.jpg);*/
+  background-image: url("images/AmericaCus.jpg");
+}
+
+.c2{
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Paella-mixta.jpg/640px-Paella-mixta.jpg);*/
+  background-image: url("images/EuropeCusjpg.jpg");
+}
+
+.c3{
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flickr_preppybyday_4665999863--General_Tso%27s_Chicken_%28cropped%29.jpg/640px-Flickr_preppybyday_4665999863--General_Tso%27s_Chicken_%28cropped%29.jpg);*/
+  background-image: url("images/AsiaCus.jpg");
+}
+
+.c4{
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Arepas_with_chicken_schnitzel%2C_avocado%2C_mayonnaise_and_red_onion.jpg/640px-Arepas_with_chicken_schnitzel%2C_avocado%2C_mayonnaise_and_red_onion.jpg);*/
+  background-image: url("images/SouthAmericaCus.jpg");
+}
+
+.c5{
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Durban_Bunny_Chow.jpg/640px-Durban_Bunny_Chow.jpg);*/
+  background-image: url("images/AfricaCus.jpg");
+}
+
+.c6{
+  width: 33.333333333333333%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
+  border-radius: 0%;
+  font-size: 200%;
+  color:white;
+  border: none;
+  outline: none;
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/2019-08-17_21_44_43_%22Tour_of_Italy%22_%28Lasagna_Classico%2C_Fettuccine_Alfredo%2C_and_Eggplant_Parmigiana_%28substituted_for_the_usual_Chicken_Parmigiana%29%29_at_the_Olive_Garden_in_Fair_Lakes%2C_Fairfax_County%2C_Virginia.jpg/640px-thumbnail.jpg);*/
+  background-image: url("images/AustraliaCus.jpg");
+}
