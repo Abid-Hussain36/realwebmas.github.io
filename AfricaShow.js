@@ -5,22 +5,25 @@ import Slider from 'react-slick';
 const AfricaShow = () => {
   const africaData =[
     {
-      countryName: "Spain",
-      demographics: "88% are Native Spaniards",
-      culture: "5 meal system",
-      food: "eat lots of pasta (non)"
+      countryName: "Mali",
+      demographics: "The largest ethnic groups are Bambara (33.3%), Fulani (13.3%), and Sarakole (9.8%).",
+      language: "The official language is French.",
+      festivals: "Popular festivals are the Gouin festival, festival on the Niger, and Desert festival.",
+      sources: "IndexMundi, ArcGIS, and iExplore."
     },
     {
-      countryName: "Germany",
-      demographics: "90% are Germans",
-      culture: "no meal system",
-      food: "dismal"
+      countryName: "Egypt",
+      demographics: "The largest ethnic group is the Ethnic Egyptians (91%).",
+      language: "The official language is Arabic.",
+      festivals: "Popular festivals are Coptic Christmas, Eid Al Ghetas, and Sham Al Naseem.",
+      sources: "Travel Triangle, WorldAtlas, and World Population Review."
     },
     {
-      countryName: "Norway",
-      demographics: "99% are Viking",
-      culture: "700 meal system",
-      food: "eat english noble guts"
+      countryName: "South Africa",
+      demographics: "The largest racial groups are Black (79%), White (9%), and Asian (3%).",
+      language: "South Africa has 11 official languages. The most commonly spoken language is Zulu.",
+      festivals: "Popular festivals are the National Arts festival, Cape Town Jazz festival, and Knysna Oyster festival.",
+      sources: "WorldAtlas, World Population Review, and Travel Triangle."
     }
   ];
 
