@@ -5,22 +5,25 @@ import Slider from 'react-slick';
 const NAmericaShow = () => {
   const nAmerData =[
     {
-      countryName: "C1",
-      demographics: "88% are Native Spaniards",
-      culture: "5 meal system",
-      food: "eat lots of pasta (non)"
+      countryName: "USA",
+      demographics: "There are White (72.4%), Black (12.6%), Asian (4.8%), Amerindian and Alaska Native (0.9%), Native Hawaiian and other Pacific Islander (6.8%), and other races (2.9%) in the United States of America",
+      language: "The most spoken language of USA is English.",
+      festivals: "Some prominent festivals are Halloween, Thanksgiving, and Christmas",
+      sources: "Index Mundi, iExplore",
     },
     {
-      countryName: "C2",
-      demographics: "90% are Germans",
-      culture: "no meal system",
-      food: "dismal"
+      countryName: "Mexico",
+      demographics: "There are Mestizo (62%), Amerindian (28%), and other races (10%) in Mexico",
+      language: "The most spoken language of Mexico is Spanish.",
+      festivals: "Some prominent festivals are Cinco De Mayo, Dia de Los Muertos, and Carnaval",
+      sources: "Index Mundi, iExplore",
     },
     {
-      countryName: "C3",
-      demographics: "99% are Viking",
-      culture: "700 meal system",
-      food: "eat english noble guts"
+      countryName: "Canada",
+      demographics: "There are Canadian (32.3%), English (18.3%), Scottish (13.9%), French (13.6%), Irish (13.4%), German (9.6%), Chinese (5.1%), Italian (4.6%), North American Indian (4.4%), East Indian (4%), and other ethinic groups (51.6%) in Canada.",
+      language: "The most spoken language of Canada is English.",
+      festivals: "Some prominent festivals are Québec Winter Carnival, Winterlude, and Pacific Rim Whale Festival",
+      sources: "Index Mundi, iExplore",
     }
   ];
 
