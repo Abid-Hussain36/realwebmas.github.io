@@ -5,22 +5,25 @@ import Slider from 'react-slick';
 const SAmericaShow = () => {
   const sAmerData =[
     {
-      countryName: "C1",
-      demographics: "88% are Native Spaniards",
-      culture: "5 meal system",
-      food: "eat lots of pasta (non)"
+      countryName: "Brazil",
+      demographics: "There are White (47.7%), Mulatto (43.1%), Black (7.6%), Asian (1.1%), indigenous (0.4%) in Brazil",
+      language: "The most spoken language of Brazil is Portuguese.",
+      festivals: "Some prominent festivals are Lapinha, Festa de Iemanja, and Boi Bumba",
+      sources: "Index Mundi, iExplore",
     },
     {
-      countryName: "C2",
-      demographics: "90% are Germans",
-      culture: "no meal system",
-      food: "dismal"
+      countryName: "Peru",
+      demographics: "There are Mestizo (60.2%), Amerindian (25.8%), White (5.96%), African Descent (3.6%), and other ethinic groups (1.2%) in Peru",
+      language: "The most spoken language of Peru is Spanish.",
+      festivals: "Some prominent festivals are Peruvian Paso Horse Festival, Inti Raymi, and Carnival",
+      sources: "Index Mundi, iExplore",
     },
     {
-      countryName: "C3",
-      demographics: "99% are Viking",
-      culture: "700 meal system",
-      food: "eat english noble guts"
+      countryName: "Guyana",
+      demographics: "There are East Indian (39.8%), African Descent (29.3%), Mixed (19.9%), Amerindian (10.5%), and other ethinic groups (0.5%) in Brazil",
+      language: "The most spoken language of Guyana is English.",
+      festivals: "Some prominent festivals are Mashramani, Diwali, and Christmas",
+      sources: "Index Mundi, iExplore",
     }
   ];
 
