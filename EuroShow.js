@@ -6,21 +6,24 @@ const EuroShow = () => {
   const euroData =[
     {
       countryName: "Spain",
-      demographics: "88% are Native Spaniards",
-      culture: "5 meal system",
-      food: "eat lots of pasta (non)"
+      demographics: "There are Hispanic (84.8%), Moroccan (1.7%), Romanian (2.7%), and other ethinic groups (12.3).",
+      language: "The official language of Spain is Spanish.",
+      festivals: "Some prominent festivals are the San Sebastian Drum Festival, the San Cecelio Fiesta, and the Jerez Horse Fair",
+      sources: "Index Mundi, iExplore",
     },
     {
       countryName: "Germany",
-      demographics: "90% are Germans",
-      culture: "no meal system",
-      food: "dismal"
+      demographics: "There are German (86.3%), Turkish (1.8%), Polish (1%), Syrian (1%), Romanian(1%), and other ethinic groups (8.9%).",
+      language: "The official language of Germany is German",
+      festivals: "Some prominent festivals are the Bruchsal Asparagus Festival, the Dresden Music Festival, and Oktoberfest.",
+      sources: "Index Mundi, iExplore",
     },
     {
       countryName: "Norway",
-      demographics: "99% are Viking",
-      culture: "700 meal system",
-      food: "eat english noble guts"
+      demographics: "There are Norwegian (83.2%), other European (8.3%), and other ethinic groups (8.5%)",
+      language: "The official language of Norway is Norwegian",
+      festivals: "Some prominent festivals are the Narvik Vinterfestuka, the Viking Festival, and the Peer Gynt Festival.",
+      sources: "Index Mundi, iExplore",
     }
   ];
 
