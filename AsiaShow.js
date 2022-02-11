@@ -52,18 +52,23 @@ const AsiaShow = () => {
       {asiaData.map((data) => {
         return(
           <div className="outer">
+            <div className="countryName">
+              <p>{data.countryName}</p>
+            </div>
+
             <div>
-              <h3>{data.countryName}</h3>
+              <p className="exText">Demographics: {data.demographics}</p>
             </div>
             <div>
-              <p>{data.demographics}</p>
+              <p className="exText">Language: {data.language}</p>
             </div>
             <div>
-              <p>{data.culture}</p>
+              <p className="exText">Festivals: {data.festivals}</p>
             </div>
             <div>
-              <p>{data.food}</p>
+              <p className="exText">Sources: {data.sources}</p>
             </div>
+
           </div>
         )
       })}

@@ -4,41 +4,50 @@ import {Link} from "react-router-dom";
 const Trivia = () => {
   const questions = [
 		{
-			questionText: 'How many meals do people in Spain typically have in a day?',
+			questionText: 'What is the most common language in South Africa?',
 			answerOptions: [
-				{ answerText: 'Two', isCorrect: false },
-				{ answerText: 'Three', isCorrect: false },
-				{ answerText: 'Four', isCorrect: false },
-				{ answerText: 'Five', isCorrect: true },
+				{ answerText: 'Swahili', isCorrect: false },
+				{ answerText: 'English', isCorrect: false },
+				{ answerText: 'French', isCorrect: false },
+				{ answerText: 'Zulu', isCorrect: true },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
-			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'The iPhone was created by which company?',
-			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: 'How many official languages does India have?',
 			answerOptions: [
 				{ answerText: '1', isCorrect: false },
+				{ answerText: '2', isCorrect: true },
+				{ answerText: '3', isCorrect: false },
 				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
 			],
 		},
+		{
+			questionText: 'What is the largest ethnic group in Mexico?',
+			answerOptions: [
+				{ answerText: 'Mestizo', isCorrect: true },
+				{ answerText: 'Amerindian', isCorrect: false },
+				{ answerText: 'White', isCorrect: false },
+				{ answerText: 'Black', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'What country is Lapinha celebrated in?',
+			answerOptions: [
+				{ answerText: 'Mexico', isCorrect: false },
+				{ answerText: 'France', isCorrect: false },
+				{ answerText: 'Brazil', isCorrect: true },
+				{ answerText: 'Mali', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What is the largest ethnic group in Fiji?',
+			answerOptions: [
+				{ answerText: 'White', isCorrect: false },
+				{ answerText: 'Rotuman', isCorrect: false },
+				{ answerText: 'Indo-Fijian', isCorrect: false },
+				{ answerText: 'Itaukei', isCorrect: true },
+			],
+		}
 	];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);

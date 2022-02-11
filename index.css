@@ -24,8 +24,9 @@ code {
 
 .navStyle{
   background-color: black;
-  margin-top: 0%;
+  margin-top: 0.5%;
   text-decoration: none;
+  margin-left: 1%;
 }
 
 .navMainButton{
@@ -33,6 +34,11 @@ code {
   color: white;
   width: 100%;
   text-decoration: none;
+}
+
+.navMainButtonText{
+  font-size: 150%;
+  font-weight: bold;
 }
 
 .navLinks{
@@ -125,7 +131,7 @@ code {
 /*Home Title*/
 .homeTitle{
   text-align: center;
-  margin-top: 1.5%;
+  margin-top: 2%;
   margin-bottom: 4%;
   color: white;
 }
@@ -133,6 +139,11 @@ code {
 .homeTitleText{
   font-size: 300%;
   font-weight: 1000;
+}
+
+.homeLink{
+  text-decoration: none;
+  color:yellow;
 }
 
 /*Home Boxes*/
@@ -143,8 +154,8 @@ code {
 }
 
 .homeText1{
-  margin-top: 10%;
-  margin-left: 15%;
+  margin-top: 7%;
+  margin-left: 8.5%;
   width: 70%;
   background-color: #ad9cff;
   padding-bottom: 15%;
@@ -152,17 +163,19 @@ code {
 }
 
 .textStyle1{
-  font-size: 200%;
+  font-size:250%;
+  font-weight: 700;
 }
 
 .textStyle2{
-  font-size: 200%;
+  font-size: 150%;
+  font-weight: 500;
 }
 
 /*Home Data*/
 
 .imageBox1{
-  background-color: blanchedalmond;
+  background-color: #ad9cff;
   width:40%;
   margin-bottom: 5%;
 }
@@ -178,17 +191,17 @@ code {
 }
 
 .homeText2{
-  margin-top: 12%;
-  margin-left: 15%;
+  margin-top: 7%;
+  margin-left: 8.5%;
   width: 75%;
   background-color: #ad9cff;
-  padding-bottom: 15%;
+  padding-bottom: 12%;
   color: white;
 }
 
 /*Home Data*/
 .imageBox2{
-  background-color: blanchedalmond;
+  background-color: #ad9cff;
   width:40%
 }
 
@@ -245,10 +258,20 @@ code {
   color: white;
 }
 
+.exTitleText{
+  font-size: 300%;
+  font-weight: 1000;
+}
+
 .exClass{
   text-align: center;
   margin-bottom: 2%;
   color: white;
+}
+
+.exClassText{
+  font-size:250%;
+  font-weight: 700;
 }
 
 .b1{
@@ -334,8 +357,12 @@ code {
   padding-top: .75%;
   padding-bottom: .75%;
   float:left;
-  margin-top: 20%;
+  margin-top: 27%;
   margin-left: 1.5%;
+  border-radius: 20%;
+  background-color: yellow;
+  border: none;
+  outline: none
 }
 
 .arrowButtonR{
@@ -343,15 +370,30 @@ code {
   padding-top: .75%;
   padding-bottom: .75%;
   float:right;
-  margin-top: 10.4%;
+  margin-top: 6.5%;
   margin-right: 1.5%;
   color:black;
+  border-radius: 20%;
+  background-color: yellow;
+  border: none;
+  outline: none
+}
+
+.countryName{
+  text-align: center;
+  margin-bottom: 2%;
+  font-size:220%;
+  font-weight: 700;
+}
+
+.exText{
+  font-size: 150%;
+  font-weight: 600;
 }
 
 .outer{
   background-color: #ad9cff;
-  width:100%;
-
+  color: white;
 }
 
 
@@ -386,19 +428,22 @@ code {
   font-size:x-large;
   float: left;
   color:white;
+  font-weight: 500;
 }
 
 .questionText{
   text-align: center;
   font-size:xx-large;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   padding-top: 2%;
   color:white;
+  font-size:220%;
+  font-weight: 700;
 }
 
 .answerSection{
   text-align: center;
-  margin-left: 8%;
+  margin-left: 9%;
 }
 
 .answerButton{
@@ -408,7 +453,8 @@ code {
   margin:1%;
   border-radius: 15%;
   background-color: maroon;
-  font-size: x-large;
+  font-size: 180%;
+  font-weight: 600;
   color:white;
 }
 
@@ -423,8 +469,8 @@ code {
   margin-left: 46.6%;
   margin-top: 1.7%;
   font-size: 150%;
-  background-color: rgb(255, 200, 0);
-  color: white;
+  background-color: #ad9cff;;
+  color: yellow;
   border: none;
   outline: none;
 }

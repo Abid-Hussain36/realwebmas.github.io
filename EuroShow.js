@@ -6,21 +6,21 @@ const EuroShow = () => {
   const euroData =[
     {
       countryName: "Spain",
-      demographics: "There are Hispanic (84.8%), Moroccan (1.7%), Romanian (2.7%), and other ethinic groups (12.3).",
+      demographics: "The major ethnic groups are Hispanic (84.8%), Moroccan (1.7%), Romanian (2.7%), and other ethinic groups (12.3%) in Spain.",
       language: "The official language of Spain is Spanish.",
-      festivals: "Some prominent festivals are the San Sebastian Drum Festival, the San Cecelio Fiesta, and the Jerez Horse Fair",
+      festivals: "Some prominent festivals are the San Sebastian Drum Festival, the San Cecelio Fiesta, and the Jerez Horse Fair.",
       sources: "Index Mundi, iExplore",
     },
     {
       countryName: "Germany",
-      demographics: "There are German (86.3%), Turkish (1.8%), Polish (1%), Syrian (1%), Romanian(1%), and other ethinic groups (8.9%).",
-      language: "The official language of Germany is German",
+      demographics: "The major ethnic groups are German (86.3%), Turkish (1.8%), Polish (1%), Syrian (1%), Romanian(1%), and other ethnic groups (8.9%) in Germany.",
+      language: "The official language of Germany is German.",
       festivals: "Some prominent festivals are the Bruchsal Asparagus Festival, the Dresden Music Festival, and Oktoberfest.",
       sources: "Index Mundi, iExplore",
     },
     {
       countryName: "Norway",
-      demographics: "There are Norwegian (83.2%), other European (8.3%), and other ethinic groups (8.5%)",
+      demographics: "The major ethnic groups are Norwegian (83.2%), other European (8.3%), and other ethinic groups (8.5%) in Norway",
       language: "The official language of Norway is Norwegian",
       festivals: "Some prominent festivals are the Narvik Vinterfestuka, the Viking Festival, and the Peer Gynt Festival.",
       sources: "Index Mundi, iExplore",
@@ -52,18 +52,23 @@ const EuroShow = () => {
       {euroData.map((data) => {
         return(
           <div className="outer">
+            <div className="countryName">
+              <p>{data.countryName}</p>
+            </div>
+
             <div>
-              <h3>{data.countryName}</h3>
+              <p className="exText">Demographics: {data.demographics}</p>
             </div>
             <div>
-              <p>{data.demographics}</p>
+              <p className="exText">Language: {data.language}</p>
             </div>
             <div>
-              <p>{data.culture}</p>
+              <p className="exText">Festivals: {data.festivals}</p>
             </div>
             <div>
-              <p>{data.food}</p>
+              <p className="exText">Sources: {data.sources}</p>
             </div>
+
           </div>
         )
       })}

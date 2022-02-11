@@ -4,10 +4,10 @@ const ExHall = () => {
   return (
     <>
       <div className="exTitle">
-      <h1>Exhibition Hall</h1>
+        <p className="exTitleText">Exhibition Hall</p>
       </div>
       <div className="exClass">
-      <h3>Explore a Continent</h3>
+        <p className="exClassText">Explore a Continent</p>
       </div>
       <div>
         <Link to="/namerica-s">
