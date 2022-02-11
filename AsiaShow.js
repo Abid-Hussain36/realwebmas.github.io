@@ -6,21 +6,24 @@ const AsiaShow = () => {
   const asiaData =[
     {
       countryName: "China",
-      demographics: "88% are Native Spaniards",
-      culture: "5 meal system",
-      food: "eat lots of pasta (non)"
+      demographics: "The largest ethnic groups are Han Chinese (91%), Zhuang (1%), and Hui (1%).",
+      language: "The official language is Mandarin Chinese.",
+      festivals: "Popular festivals are Chinese New Year, Qingming festival, and Duanwu festival.",
+      sources: "Asia Society, WorldAtlas, and Travel Triangle."
     },
     {
       countryName: "India",
-      demographics: "90% are Germans",
-      culture: "no meal system",
-      food: "dismal"
+      demographics: "The largest ethnic groups are Indo-Aryan (72%), Dravidian (25%), and Mongoloid/Other Minority Groups (3%).",
+      language: "The official languages are Hindi and English.",
+      festivals: "Diwali, Holi, and Maha Shivatri.",
+      sources: "Travel Triangle, Career Power, and WorldAtlas."
     },
     {
       countryName: "Turkey",
-      demographics: "99% are Viking",
-      culture: "700 meal system",
-      food: "eat english noble guts"
+      demographics: "The largest ethnic groups are Turks (73%), Kurds (13%), and Zaza Kurds (4%).",
+      language: "The official language is Turkish.",
+      festivals: "Popular festivals are Ramazan, Kadir Gecesi, and Cappadox.",
+      sources: "Britannica, Travel Triangle, and WorldAtlas."
     }
   ];
 
