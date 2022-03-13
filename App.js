@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import ExHall from "./ExHall";
-import CuisinePage from "./CuisinePage";
+import CuisineIcons from "./CuisineIcons";
 import Trivia from "./Trivia";
 import AsiaShow from "./AsiaShow";
 import NAmericaShow from "./NAmericaShow";
@@ -25,7 +25,7 @@ function App() {
               <ExHall/>
             </Route>
             <Route path="/cuis">
-              <CuisinePage/>
+              <CuisineIcons/>
             </Route>
             <Route path="/tr">
               <Trivia/>
