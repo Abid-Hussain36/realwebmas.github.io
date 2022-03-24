@@ -12,7 +12,7 @@ const CuisinePage = () => {
             <tr>
               <td className="textBox1">
                 <div className="homeText1">
-                  <p className="textStyle1">Want to Explore the Cultures of the World?</p>
+                  <p className="textStyle1">Cuisines</p>
                   <p className="textStyle2">Learn more about the citizens of various countries by visiting the <Link to="/ex" className="homeLink">Exhibition Hall</Link>.</p>
                 </div>
               </td>
